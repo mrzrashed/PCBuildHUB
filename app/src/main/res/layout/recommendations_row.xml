@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitor"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/monitor_name_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitor Name"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price "
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/monitor_price_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitor Price"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Processor"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/processor_name_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Processor Name"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/processor_price_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Processor Price"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motherboard"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/motherboard_name_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motherboard Name"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/motherboard_price_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motherboard Price"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GPU"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/gpu_name_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GPU Name"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/gpu_price_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GPU Price"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HDD"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/hdd_name_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HDD Name"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/hdd_price_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HDD Price"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RAM"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/ram_name_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RAM Name"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/ram_price_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RAM Price"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="3dp"
+        android:background="@color/colorRecommendationBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textSize="16sp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/total_price_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

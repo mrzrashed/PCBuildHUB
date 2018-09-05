@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginCheck"
+    android:background="@color/colorText"
+    android:id="@+id/scrollVIew">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Sign Up Here"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editetext_shape"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/usernameXml"
+            android:hint="@string/hint_name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editetext_shape"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/emailHereXml"
+            android:hint="@string/hint_email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editetext_shape"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:hint="@string/hint_password"
+            android:id="@+id/passwordHereXml"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:text="Sign Up"
+            android:id="@+id/signUpHere"
+            android:textAllCaps="false"
+            android:background="@drawable/buttons_shape"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/moveSignInPage"
+            android:text="For signin ,Click here"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</ScrollView>
